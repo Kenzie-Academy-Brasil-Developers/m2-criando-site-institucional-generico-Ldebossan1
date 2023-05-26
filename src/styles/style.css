@@ -10,7 +10,7 @@ body {
     height: 100px;
     position: fixed;
     width: 100%;
-    z-index: 2px;
+
 }
 
 .header__container>.container {
@@ -241,7 +241,7 @@ body {
     height: 100px;
     gap: 15px;
     font-size: 16px;
-    margin-left: 80px;
+    margin-left: 20px;
 }
 
 .aside__para {
@@ -294,4 +294,81 @@ body {
     background-color:var(--grey0) ;
     color: var(--grey4);
     font-weight: 600;
+}
+
+dialog[open] {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+    background-color: var(--grey1);
+    border-radius: 1px;
+}
+
+dialog[open]>h1 {
+    display: flex;
+    margin-left: 25px;
+    margin-bottom: 50px;
+
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 150%;
+    color: var(--grey5);
+}
+
+dialog[open]>input {
+    display: flex;
+    top: 20px;
+    left: 15px;
+    width: 430px;
+    margin-left: 30px;
+    height: 40px;
+    color: var(--grey4);
+    background-color: var(--grey0);
+}
+
+dialog[open]>.btn__modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 440px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: var(--brand-1);
+    font-size: 18px;
+    color: var(--grey5);
+}
+
+dialog[open]>.btn__fechar {
+    display: flex;
+    position: relative;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    background-color: var(--grey2);
+    bottom: 330px;
+    left: 450px;
+    color: var(--grey5);
+}
+
+dialog[open]>p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 30px;
+    width: 450px;
+    height: 150px;
+    color: var(--grey4);
+
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.9);
 }
