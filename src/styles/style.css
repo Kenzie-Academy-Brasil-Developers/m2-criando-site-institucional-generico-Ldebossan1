@@ -182,7 +182,7 @@ body {
     width: 300px;
     height: 500px;
     margin-right: 180px;
-    margin-top:100px;
+    margin-top: 100px;
 }
 
 .span__container {
@@ -249,7 +249,7 @@ body {
 }
 
 .div__aside {
-    display:flex;
+    display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -291,7 +291,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color:var(--grey0) ;
+    background-color: var(--grey0);
     color: var(--grey4);
     font-weight: 600;
 }
