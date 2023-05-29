@@ -7,7 +7,7 @@ body {
 
 .header__container {
     background-color: var(--grey0);
-    height: 100px;
+    height: 6.25rem;
     position: fixed;
     width: 100%;
 
@@ -22,25 +22,25 @@ body {
 
 .header__title {
     color: var(--grey5);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
-    line-height: 20px;
-    margin: 30px;
+    line-height: 1.25rem;
+    margin: 1.875rem;
 }
 
 .header__button {
-    width: 180px;
-    height: 40px;
+    width: 11.25rem;
+    height: 2.5rem;
 
     font-weight: 600;
-    font-size: 12px;
+    font-size: 0.75rem;
     color: var(--grey5);
 
     background-color: var(--grey0);
     border-color: var(--grey5);
-    border-radius: 5px;
+    border-radius: 0.3125rem;
 
-    margin: 50px;
+    margin: 3.125rem;
 }
 
 .header__button:hover {
@@ -49,7 +49,7 @@ body {
 
 .filter__text {
     display: flex;
-    height: 600px;
+    height: 37.5rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -58,13 +58,13 @@ body {
 
 .filter__texto {
     display: flex;
-    height: 80px;
-    margin-top: 250px;
-    margin-left: 28px;
-    font-size: 42px;
+    height: 5rem;
+    margin-top: 15.625rem;
+    margin-left: 1.75rem;
+    font-size: 2.625rem;
     font-weight: 600;
     line-height: 140%;
-    gap: 12px;
+    gap: 0.75rem;
 
     color: var(--grey5);
 }
@@ -78,9 +78,9 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 650px;
-    height: 300px;
-    margin-bottom: 120px;
+    width: 40.625rem;
+    height: 18.75rem;
+    margin-bottom: 7.5rem;
 
     color: var(--grey3);
 }
@@ -92,16 +92,16 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 200px;
-    height: 100px;
+    width: 12.5rem;
+    height: 6.25rem;
     background-color: var(--brand-1);
-    bottom: 100px;
+    bottom: 6.25rem;
 
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 
 .div__container2 {
-    height: 200px;
+    height: 12.5rem;
     background-color: var(--grey0);
     display: flex;
     justify-content: space-between;
@@ -110,19 +110,19 @@ body {
 
 .div__h2 {
     display: flex;
-    width: 250px;
-    height: 50px;
-    margin-left: 290px;
-    font-size: 22px;
+    width: 15.625rem;
+    height: 3.125rem;
+    margin-left: 18.125rem;
+    font-size: 1.375rem;
     color: var(--grey5);
 }
 
 .div__paragraph {
     display: flex;
-    width: 250px;
-    height: 50px;
-    margin-right: 160px;
-    margin-bottom: 50px;
+    width: 15.625rem;
+    height: 3.125rem;
+    margin-right: 10rem;
+    margin-bottom: 3.125rem;
     color: var(--grey5);
     font-weight: 100;
 }
@@ -130,7 +130,7 @@ body {
 .div__container3 {
     display: flex;
     justify-content: space-between;
-    height: 850px;
+    height: 53.125rem;
     background-color: var(--grey2);
 }
 
@@ -138,53 +138,53 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 120px;
-    margin-top: 70px;
+    margin-left: 7.5rem;
+    margin-top: 4.375rem;
 }
 
 .div__texto {
     display: flex;
-    width: 300px;
-    height: 100px;
+    width: 18.75rem;
+    height: 6.25rem;
     align-items: center;
     justify-content: center;
-    margin-left: 20px;
+    margin-left: 1.25rem;
 
-    font-size: 22px;
+    font-size: 1.375rem;
     color: var(--grey5);
     font-weight: 600;
 }
 
 .section__p {
     display: flex;
-    width: 350px;
-    padding-left: 180px;
+    width: 21.875rem;
+    padding-left: 11.25rem;
     color: var(--grey5);
     font-weight: 100;
 }
 
 .section__span {
     display: flex;
-    width: 200px;
-    height: 30px;
+    width: 12.5rem;
+    height: 1.875rem;
     justify-content: center;
     align-items: center;
     text-align: center;
     background-color: var(--brand-1);
     color: var(--grey5);
-    font-size: 14px;
-    margin: 24px auto;
-    margin-left: 180px;
+    font-size: 0.875rem;
+    margin: 1.5rem auto;
+    margin-left: 11.25rem;
 }
 
 .div__container4 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 300px;
-    height: 500px;
-    margin-right: 180px;
-    margin-top: 100px;
+    width: 18.75rem;
+    height: 31.25rem;
+    margin-right: 11.25rem;
+    margin-top: 6.25rem;
 }
 
 .span__container {
@@ -192,23 +192,23 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .span__h3 {
     color: var(--grey5);
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 .span__pl {
     display: flex;
     color: var(--grey4);
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
 }
 
 .section__container {
     width: 100%;
-    height: 600px;
+    height: 37.5rem;
     background-color: var(--grey2);
     display: flex;
 }
@@ -218,11 +218,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 550px;
+    width: 34.375rem;
     flex-direction: column;
-    margin-left: 250px;
-    margin-top: 100px;
-    margin-bottom: 250px;
+    margin-left: 15.625rem;
+    margin-top: 6.25rem;
+    margin-bottom: 15.625rem;
     color: var(--grey4);
 }
 
@@ -232,23 +232,23 @@ body {
     align-items: center;
     text-align: center;
 
-    gap: 50px;
-    width: 600px;
-    height: 100px;
+    gap: 3.125rem;
+    width: 37.5rem;
+    height: 6.25rem;
 }
 
 .span__name {
     display: flex;
     flex-direction: column;
-    width: 350px;
-    height: 100px;
-    gap: 15px;
-    font-size: 16px;
-    margin-left: 20px;
+    width: 21.875rem;
+    height: 6.25rem;
+    gap: 0.9375rem;
+    font-size: 1rem;
+    margin-left: 1.25rem;
 }
 
 .aside__para {
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .div__aside {
@@ -256,10 +256,10 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 446px;
-    height: 400px;
-    margin-top: 20px;
-    margin-left: 250px;
+    width: 27.875rem;
+    height: 25rem;
+    margin-top: 1.25rem;
+    margin-left: 15.625rem;
     background-color: var(--brand-1);
 }
 
@@ -268,9 +268,9 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-size: 35px;
-    margin-top: 65px;
-    margin-left: 35px;
+    font-size: 2.1875rem;
+    margin-top: 4.0625rem;
+    margin-left: 2.1875rem;
     color: var(--grey4);
     font-weight: 600;
 }
@@ -280,17 +280,17 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-top: 50px;
-    width: 387px;
-    height: 135px;
-    margin-left: 40px;
+    padding-top: 3.125rem;
+    width: 24.1875rem;
+    height: 8.4375rem;
+    margin-left: 2.5rem;
     color: var(--grey4);
     font-weight: 200;
 }
 
 .footer__container {
     display: flex;
-    height: 80px;
+    height: 5rem;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -303,18 +303,18 @@ dialog[open] {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 500px;
-    height: 400px;
+    width: 31.25rem;
+    height: 25rem;
     background-color: var(--grey1);
-    border-radius: 1px;
+    border-radius: 0.0625rem;
 }
 
 dialog[open]>h1 {
     display: flex;
-    margin-left: 25px;
-    margin-bottom: 50px;
+    margin-left: 1.5625rem;
+    margin-bottom: 3.125rem;
 
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     line-height: 150%;
     color: var(--grey5);
@@ -322,11 +322,11 @@ dialog[open]>h1 {
 
 dialog[open]>input {
     display: flex;
-    top: 20px;
-    left: 15px;
-    width: 430px;
-    margin-left: 30px;
-    height: 40px;
+    top: 1.25rem;
+    left: 0.9375rem;
+    width: 26.875rem;
+    margin-left: 1.875rem;
+    height: 2.5rem;
     color: var(--grey4);
     background-color: var(--grey0);
 }
@@ -335,25 +335,25 @@ dialog[open]>.btn__modal {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 440px;
-    height: 50px;
-    margin-top: 30px;
-    margin-left: 30px;
+    width: 27.5rem;
+    height: 3.125rem;
+    margin-top: 1.875rem;
+    margin-left: 1.875rem;
     background-color: var(--brand-1);
-    font-size: 18px;
+    font-size: 1.125rem;
     color: var(--grey5);
 }
 
 dialog[open]>.btn__fechar {
     display: flex;
     position: relative;
-    width: 30px;
+    width: 1.875rem;
     align-items: center;
     justify-content: center;
-    height: 25px;
+    height: 1.5625rem;
     background-color: var(--grey2);
-    bottom: 330px;
-    left: 450px;
+    bottom: 22.5rem;
+    left: 28.125rem;
     color: var(--grey5);
 }
 
@@ -362,14 +362,14 @@ dialog[open]>p {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-left: 30px;
-    width: 450px;
-    height: 150px;
+    margin-left: 1.875rem;
+    width: 28.125rem;
+    height: 9.375rem;
     color: var(--grey4);
 
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 300;
-    line-height: 20px;
+    line-height: 1.25rem;
 }
 
 dialog::backdrop {
